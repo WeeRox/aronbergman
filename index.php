@@ -4,8 +4,6 @@
 		<meta charset="utf-8">
 		<title>Aron Bergman</title>
 		<link href="/css/index.css" type="text/css" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="/js/svg.js"></script>
 	</head>
 	<body>
 		<header>
