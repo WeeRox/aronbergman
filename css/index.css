@@ -28,15 +28,19 @@ nav {
 	margin: 0 2em;
 }
 
+nav a {
+	text-decoration: none;
+}
+
 nav a svg {
 	height: 40px;
 }
 
-nav a svg .icon {
+nav a .icon {
 	fill: #00a1ff;
 }
 
-nav a svg .background {
+nav a .background {
 	fill: #fff;
 }
 
