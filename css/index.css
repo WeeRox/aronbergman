@@ -40,6 +40,30 @@ nav a svg .background {
 	fill: #fff;
 }
 
+nav a:hover #github .icon, nav a:hover #linkedin .icon, nav a:hover #twitter .icon, nav a:hover #facebook .icon, nav a:hover #google-plus .icon {
+	fill: #fff;
+}
+
+nav a:hover #github .background {
+	fill: #191717;
+}
+
+nav a:hover #linkedin .background {
+	fill: #007bb5;
+}
+
+nav a:hover #twitter .background {
+	fill: #1da1f2;
+}
+
+nav a:hover #facebook .background {
+	fill: #3b5998;
+}
+
+nav a:hover #google-plus .background {
+	fill: #dc4e41;
+}
+
 main img {
 	display: block;
 	margin: 0 auto;
