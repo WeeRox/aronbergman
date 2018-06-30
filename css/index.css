@@ -86,9 +86,9 @@ main img {
 		height: 50vh;
 		margin: 0;
 		position: absolute;
-		top: 0;
+		top: 50%;
 		left: 50%;
-		transform: translate(-50%, 50%);
+		transform: translate(-50%, -50%);
 	}
 
 	nav a svg {
@@ -98,6 +98,10 @@ main img {
 }
 
 @media (max-width: 500px) {
+	header #logo svg {
+		width: 50vw;
+	}
+
 	nav {
 		display: flex;
 		margin: 0;
@@ -107,13 +111,5 @@ main img {
 		top: auto;
 		right: auto;
 		transform: translateX(-50%);
-	}
-
-	header #logo svg {
-		width: 50vw;
-		height: auto;
-		top: 50%;
-		left: 0;
-		transform: translate(50%, -50%);
 	}
 }
