@@ -72,7 +72,7 @@ main img {
 	max-width: 100vw;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 850px) {
 	html, body {
 		height: 100%;
 	}
@@ -82,14 +82,22 @@ main img {
 	}
 
 	header #logo svg {
-		width: 50vw;
-		height: auto;
+		width: auto;
+		height: 50vh;
+		margin: 0;
 		position: absolute;
-		top: 50%;
-		left: 0;
-		transform: translate(50%, -50%);
+		top: 0;
+		left: 50%;
+		transform: translate(-50%, 50%);
 	}
 
+	nav a svg {
+		display: block;
+		height: 60px;
+	}
+}
+
+@media (max-width: 500px) {
 	nav {
 		display: flex;
 		margin: 0;
@@ -101,7 +109,11 @@ main img {
 		transform: translateX(-50%);
 	}
 
-	nav a svg {
-		height: 60px;
+	header #logo svg {
+		width: 50vw;
+		height: auto;
+		top: 50%;
+		left: 0;
+		transform: translate(50%, -50%);
 	}
 }
