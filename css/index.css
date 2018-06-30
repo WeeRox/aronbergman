@@ -6,7 +6,7 @@ html, body {
 header {
 	position: relative;
 	width: 100vw;
-	background-color: #fff;
+	background-color: #0047BB;
 }
 
 header #logo svg {
@@ -15,7 +15,7 @@ header #logo svg {
 }
 
 header #logo svg .logo {
-	fill: #00a1ff;
+	fill: #fff;
 }
 
 nav {
@@ -34,35 +34,35 @@ nav a svg {
 	height: 40px;
 }
 
-nav a .icon {
-	fill: #00a1ff;
-}
-
 nav a .background {
+	fill: #0047BB;
+}
+
+nav a .icon {
 	fill: #fff;
 }
 
-nav a:hover .icon {
-	fill: #fff;
+nav a:hover .background {
+	fill: #fff !important;
 }
 
-nav a:hover #github .background {
+nav a:hover #github .icon {
 	fill: #191717;
 }
 
-nav a:hover #linkedin .background {
+nav a:hover #linkedin .icon {
 	fill: #007bb5;
 }
 
-nav a:hover #twitter .background {
+nav a:hover #twitter .icon {
 	fill: #1da1f2;
 }
 
-nav a:hover #facebook .background {
+nav a:hover #facebook .icon {
 	fill: #3b5998;
 }
 
-nav a:hover #google-plus .background {
+nav a:hover #google-plus .icon {
 	fill: #dc4e41;
 }
 
@@ -79,7 +79,6 @@ main img {
 
 	header {
 		height: 100%;
-		background-color: #00a1ff;
 	}
 
 	header #logo svg {
@@ -89,10 +88,6 @@ main img {
 		top: 50%;
 		left: 0;
 		transform: translate(50%, -50%);
-	}
-
-	header #logo svg .logo {
-		fill: #fff;
 	}
 
 	nav {
@@ -108,37 +103,5 @@ main img {
 
 	nav a svg {
 		height: 60px;
-	}
-
-	nav a .background {
-		fill: #00a1ff;
-	}
-
-	nav a .icon {
-		fill: #fff;
-	}
-
-	nav a:hover .background {
-		fill: #fff !important;
-	}
-
-	nav a:hover #github .icon {
-		fill: #191717;
-	}
-
-	nav a:hover #linkedin .icon {
-		fill: #007bb5;
-	}
-
-	nav a:hover #twitter .icon {
-		fill: #1da1f2;
-	}
-
-	nav a:hover #facebook .icon {
-		fill: #3b5998;
-	}
-
-	nav a:hover #google-plus .icon {
-		fill: #dc4e41;
 	}
 }
