@@ -6,7 +6,7 @@ html, body {
 header {
 	position: relative;
 	width: 100vw;
-	background-color: #0047BB;
+	background-color: #0047AB;
 }
 
 header #logo svg {
@@ -35,7 +35,7 @@ nav a svg {
 }
 
 nav a .background {
-	fill: #0047BB;
+	fill: #0047AB;
 }
 
 nav a .icon {
