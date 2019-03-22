@@ -17,7 +17,6 @@
 				<a href="https://www.linkedin.com/in/aronbergman/"><?php include($_SERVER["DOCUMENT_ROOT"] . "/img/social/linkedin.svg")?></a>
 				<a href="https://twitter.com/WeeRoxs"><?php include($_SERVER["DOCUMENT_ROOT"] . "/img/social/twitter.svg")?></a>
 				<a href="https://www.facebook.com/aronbergman00"><?php include($_SERVER["DOCUMENT_ROOT"] . "/img/social/facebook.svg")?></a>
-				<a href="https://plus.google.com/112299233389798170834"><?php include($_SERVER["DOCUMENT_ROOT"] . "/img/social/google-plus.svg")?></a>
 			</nav>
 		</header>
 		<main>
