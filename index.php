@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<header>
-			<a id="logo" href="/index.php">
+			<a id="logo" href="/">
 				<?php include($_SERVER["DOCUMENT_ROOT"] . "/img/logo.svg")?>
 			</a>
 			<nav>
