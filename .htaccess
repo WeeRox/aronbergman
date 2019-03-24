@@ -16,3 +16,10 @@ RewriteRule ^(.*)/$ $1.php [END]
 
 RewriteCond %{DOCUMENT_ROOT}/$1.html -f
 RewriteRule ^(.*)/$ $1.html [END]
+
+# If the requested file is a directory,
+# and isn't the root,
+# we should return a 404 error
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond $1 !^$
+RewriteRule ^(.*)$ - [R=404,L]
