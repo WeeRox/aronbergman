@@ -7,22 +7,38 @@ header {
 	position: relative;
 	width: 100vw;
 	background-color: #0047AB;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-header #logo svg {
+#logo svg {
 	height: 50px;
 	margin: 1em;
 }
 
-header #logo svg .logo {
+#logo svg .logo {
 	fill: #fff;
 }
 
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
 #social {
-	position: absolute;
-	right: 0;
-	top: 50%;
-	transform: translateY(-50%);
 	margin: 0 2em;
 }
 
