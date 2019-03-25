@@ -7,6 +7,7 @@
 		<title>Aron Bergman</title>
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="/css/main.css" type="text/css">
+		<link rel="stylesheet" href="/css/index.css" type="text/css">
 	</head>
 	<body>
 		<header>

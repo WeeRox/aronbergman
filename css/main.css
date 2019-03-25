@@ -62,12 +62,6 @@ header #logo svg .logo {
 	fill: #3b5998;
 }
 
-main img {
-	display: block;
-	margin: 0 auto;
-	max-width: 100vw;
-}
-
 .card {
 	background-color: white;
 	border-radius: 5px;
