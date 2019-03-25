@@ -13,7 +13,7 @@
 			<a id="logo" href="/">
 				<?php include($_SERVER["DOCUMENT_ROOT"] . "/img/logo.svg")?>
 			</a>
-			<nav>
+			<nav id="social">
 				<a href="https://github.com/WeeRox/"><?php include($_SERVER["DOCUMENT_ROOT"] . "/img/social/github.svg")?></a>
 				<a href="https://www.linkedin.com/in/aronbergman/"><?php include($_SERVER["DOCUMENT_ROOT"] . "/img/social/linkedin.svg")?></a>
 				<a href="https://twitter.com/WeeRoxs"><?php include($_SERVER["DOCUMENT_ROOT"] . "/img/social/twitter.svg")?></a>

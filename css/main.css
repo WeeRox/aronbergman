@@ -18,7 +18,7 @@ header #logo svg .logo {
 	fill: #fff;
 }
 
-nav {
+#social {
 	position: absolute;
 	right: 0;
 	top: 50%;
@@ -26,39 +26,39 @@ nav {
 	margin: 0 2em;
 }
 
-nav a {
+#social a {
 	text-decoration: none;
 }
 
-nav a svg {
+#social a svg {
 	height: 40px;
 }
 
-nav a .background {
+#social a .background {
 	fill: #0047AB;
 }
 
-nav a .icon {
+#social a .icon {
 	fill: #fff;
 }
 
-nav a:hover .background {
+#social a:hover .background {
 	fill: #fff !important;
 }
 
-nav a:hover #github .icon {
+#social a:hover #github .icon {
 	fill: #191717;
 }
 
-nav a:hover #linkedin .icon {
+#social a:hover #linkedin .icon {
 	fill: #007bb5;
 }
 
-nav a:hover #twitter .icon {
+#social a:hover #twitter .icon {
 	fill: #1da1f2;
 }
 
-nav a:hover #facebook .icon {
+#social a:hover #facebook .icon {
 	fill: #3b5998;
 }
 
@@ -101,7 +101,7 @@ main img {
 		transform: translate(-50%, -50%);
 	}
 
-	nav a svg {
+	#social a svg {
 		display: block;
 		height: 60px;
 	}
@@ -112,7 +112,7 @@ main img {
 		width: 50vw;
 	}
 
-	nav {
+	#social {
 		display: flex;
 		margin: 0;
 		position: absolute;
