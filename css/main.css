@@ -69,12 +69,33 @@ header {
 }
 
 #nav ul li a {
+	position: relative;
 	color: white;
 	margin: 1em;
 	text-decoration: none;
 	font-family: 'CircularStd', sans-serif;
 	font-size: 1.5em;
 	font-weight: 900;
+}
+
+#nav ul li a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 3px;
+	width: 100%;
+	background: white;
+	visibility: hidden;
+	opacity: 0;
+	transition: bottom 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s,
+		opacity 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s;
+}
+
+#nav ul li a:hover::after {
+	visibility: visible;
+	opacity: 1;
+	bottom: -6px;
 }
 
 #social {
