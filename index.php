@@ -22,7 +22,6 @@
 			</nav>
 		</header>
 		<main>
-			<img src="https://httpstatusdogs.com/img/204.jpg">
 		</main>
 	</body>
 </html>
