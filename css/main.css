@@ -118,6 +118,33 @@ header {
 	fill: #3b5998;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'CircularStd', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+p {
+	font-family: sans-serif;
+	line-height: 1.5em;
+}
+
 .card {
 	background-color: white;
 	border-radius: 5px;
