@@ -70,7 +70,11 @@ header {
 
 #nav ul li a {
 	color: white;
+	margin: 1em;
 	text-decoration: none;
+	font-family: 'CircularStd', sans-serif;
+	font-size: 1.5em;
+	font-weight: 900;
 }
 
 #social {
