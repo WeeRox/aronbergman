@@ -22,6 +22,28 @@
 			</nav>
 		</header>
 		<main>
+			<div class="card contact">
+				<h2>Contact</h2>
+				<table>
+					<tr>
+						<td><img src="/img/icons/mail.svg"></td>
+						<td><a href="mailto:aron@aronbergman.se">aron@aronbergman.se</a></td>
+					</tr>
+					<tr>
+						<td><img src="/img/icons/phone.svg"></td>
+						<td><p>+46 70-325 00 89</p></td>
+					</tr>
+					<tr>
+						<td><img src="/img/icons/location.svg"></td>
+						<td>
+							<p>Aron Bergman</p>
+							<p>Bäling 150</p>
+							<p>829 61 Gnarp</p>
+							<p>Sweden</p>
+						</td>
+					</tr>
+				</table>
+			</div>
 		</main>
 	</body>
 </html>

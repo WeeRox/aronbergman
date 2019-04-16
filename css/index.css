@@ -5,3 +5,32 @@ main {
 	grid-auto-rows: minmax(100px, auto);
 	grid-gap: 1em;
 }
+
+.contact {
+	background-color: #0047AB;
+	color: white;
+
+	grid-column: 4 / 5;
+	grid-row: 1 / 2;
+}
+
+.contact table {
+	margin-top: 1em;
+}
+
+.contact td {
+	vertical-align: top;
+}
+
+.contact p, .contact a {
+	font-family: 'CircularStd', sans-serif;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+
+	margin: 0;
+}
+
+.contact img {
+	margin-right: 1em;
+}
