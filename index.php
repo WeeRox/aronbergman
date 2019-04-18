@@ -26,15 +26,15 @@
 				<h2>Contact</h2>
 				<table>
 					<tr>
-						<td><img src="/img/icons/mail.svg"></td>
+						<td><img src="/img/icons/mail.svg" alt="Email address"></td>
 						<td><a href="mailto:aron@aronbergman.se">aron@aronbergman.se</a></td>
 					</tr>
 					<tr>
-						<td><img src="/img/icons/phone.svg"></td>
+						<td><img src="/img/icons/phone.svg" alt="Phone number"></td>
 						<td><p>+46 70-325 00 89</p></td>
 					</tr>
 					<tr>
-						<td><img src="/img/icons/location.svg"></td>
+						<td><img src="/img/icons/location.svg" alt="Address"></td>
 						<td>
 							<p>Aron Bergman</p>
 							<p>Bäling 150</p>
