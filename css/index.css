@@ -35,6 +35,13 @@ main {
 	margin-right: 1em;
 }
 
+.card time {
+	font-family: 'CircularStd', sans-serif;
+	font-weight: 900;
+	color: #0047AB;
+	margin-bottom: 1em;
+}
+
 @media (max-width: 850px) {
 	main {
 		grid-template-columns: repeat(3, 1fr);
