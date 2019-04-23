@@ -170,6 +170,18 @@ p {
 	line-height: 1.5em;
 }
 
+article {
+	max-width: 40em;
+	margin: 2em auto;
+	padding: 0 2em;
+}
+
+article time {
+	font-family: 'CircularStd', sans-serif;
+	font-weight: 900;
+	color: #0047AB;
+}
+
 .card {
 	background-color: white;
 	border-radius: 5px;
